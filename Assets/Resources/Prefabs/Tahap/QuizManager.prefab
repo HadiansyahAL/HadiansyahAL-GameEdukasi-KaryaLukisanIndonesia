@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8169142581399069660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8169142581399069662}
+  - component: {fileID: 8169142581399069663}
+  m_Layer: 0
+  m_Name: QuizManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8169142581399069662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8169142581399069660}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 398.30222, y: 144.34497, z: -10.343529}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8169142581399069663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8169142581399069660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615ca9bf10307014caac3e81f52386aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QnA:
+  - Question: Semua lukisan di ruagan ini menggunakan media lukis apa ?
+    Answers:
+    - Karton
+    - Canvas
+    - Kulit Hewan
+    - Kayu
+    CorrectAnswer: 1
+  - Question: Dalam ruangan ini terdapat 4 pelukis terkenal Indonesia, kecuali ?
+    Answers:
+    - Basoeki Abdullah
+    - Affandi
+    - S. Sudjojono
+    - Agus Djaya
+    CorrectAnswer: 3
+  - Question: 'Lukisan "Diponegoro Memimpin Pertempuran" dibuat tahun? '
+    Answers:
+    - 1940
+    - 1945
+    - 1935
+    - 1930
+    CorrectAnswer: 0
+  - Question: Sebutkan salah satu karya pelukis S.Sudjojono ?
+    Answers:
+    - 'Upatjara Pembakaran Djenazah di Bali '
+    - Njai Roro Kidul
+    - Kawan-kawan Revolusi
+    - Sebuah Warung di Bali
+    CorrectAnswer: 2
+  - Question: Pelukis yang banyak menceritakan diri sendiri atau keluarganya adalah
+      ?
+    Answers:
+    - S. Sudjojono
+    - Basoeki Abdullah
+    - Affandi
+    - Lee Man Fong
+    CorrectAnswer: 2
+  options:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentQuestion: 0
+  quizPanel: {fileID: 0}
+  scorePanel: {fileID: 0}
+  QuestionTxt: {fileID: 0}
+  ScoreTxt: {fileID: 0}
+  score: 0
